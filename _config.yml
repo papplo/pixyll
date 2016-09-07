@@ -2,7 +2,7 @@
 title:       Anttila.co
 email:       info@clickyeah.cl
 author:      Pablo Anttila
-description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
+description: "En utvecklarblogg för de som gillar estetiskt fluff"
 baseurl:     ""
 url:         "http://_site.dev/"
 date_format: "%b %-d, %Y"
@@ -17,9 +17,9 @@ google_tag_manager:
 bing_verification:
 
 # Optional features
-animated:             true
-show_related_posts:   true
-show_post_footers:    true
+animated:             false
+show_related_posts:   false
+show_post_footers:    false
 show_social_icons:    false
 ajaxify_contact_form: false
 enable_mathjax: false
@@ -29,7 +29,7 @@ enable_anchorjs: false
 # Facebook Page integration
 # (for instant articles and other stuff)
 fb_page: false
-fb_page_id: 
+fb_page_id:
 
 # Disqus post comments
 # (leave blank to disable Disqus)
@@ -107,7 +107,7 @@ markdown:     kramdown
 redcarpet:
   extensions: ['smart', 'tables', 'with_toc_data']
 permalink:    pretty
-paginate:     8 
+paginate:     8
 sass:
   compressed: true
 gems:
