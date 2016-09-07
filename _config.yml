@@ -4,7 +4,7 @@ email:       info@clickyeah.cl
 author:      Pablo Anttila
 description: "En utvecklarblogg för de som gillar estetiskt fluff"
 baseurl:     ""
-url:         "http://_site.dev/"
+url:         "http://anttila.co/" 
 date_format: "%b %-d, %Y"
 
 # Google services
@@ -71,8 +71,8 @@ share_hackernews: false
 
 text:
   pagination:
-    newer: 'Newer'
-    older: 'Older'
+    newer: 'Nytt'
+    older: 'Gammalt'
   share_buttons:
     text:         'Share this post!'
     facebook:     'Share on Facebook'

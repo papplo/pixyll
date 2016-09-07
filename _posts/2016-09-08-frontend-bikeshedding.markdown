@@ -2,7 +2,7 @@
 layout:     post
 title:      Frontend Bikeshedding
 date:       2016-09-07 11:31:19
-summary:    Här summeras utan fluff lärdomen jag samlat på mig under min karriär som projektinriktad webbapa.
+summary:    Summerar här några tankar om webbprojekt i agil form
 categories: bikeshed
 ---
 Utan att riktigt veta varför börjar jag knappa in lite bokstäver här i ett markdown-dokument.
