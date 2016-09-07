@@ -5,9 +5,13 @@
 
 .site-header a {
   color: #333;
-  font-size: $h3;
+  font-size: $h2;
   font-weight: 300;
+	letter-spacing: 0.125em;
+	text-transform: uppercase;
   background-image: none;
+	  font-family: $heading-font-family;
+
 }
 
 .site-header .site-title {

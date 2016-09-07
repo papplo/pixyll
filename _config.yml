@@ -1,10 +1,10 @@
 # Site settings
-title:       Pixyll
-email:       your_email@example.com
-author:      John Otander
+title:       Anttila.co
+email:       info@clickyeah.cl
+author:      Pablo Anttila
 description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
 baseurl:     ""
-url:         "http://pixyll.com"
+url:         "http://_site.dev/"
 date_format: "%b %-d, %Y"
 
 # Google services
@@ -17,9 +17,9 @@ google_tag_manager:
 bing_verification:
 
 # Optional features
-animated:             false
-show_related_posts:   false
-show_post_footers:    false
+animated:             true
+show_related_posts:   true
+show_post_footers:    true
 show_social_icons:    false
 ajaxify_contact_form: false
 enable_mathjax: false
@@ -42,7 +42,7 @@ facebook_appid:
 facebook_comments_number: 10
 
 # Social icons
-github_username:
+github_username: papplo
 bitbucket_username:
 stackoverflow_id:
 twitter_username:
@@ -91,23 +91,23 @@ text:
   index:
     coming_soon: 'Coming soon...'
   contact:
-    email:    'Email Address'
-    content:  'What would you like to say?'
-    subject:  'New submission!'
-    submit:   'Say Hello'
+    email:    'Din e-post'
+    content:  'Skriv en hälsning'
+    subject:  'Nytt meddelande på anttila.co'
+    submit:   'Tjaba Hej!'
     ajax:
-      sending:  'sending..'
-      sent:     'Message sent!'
+      sending:  'sänder..'
+      sent:     'Sänt!'
       error:    'Error!'
-  thanks: 'Thanks for contacting us. We will reply as soon as possible.'
-  og_locale: 'en_US'
+  thanks: 'Tack för ditt meddelande, återkommer snarast!'
+  og_locale: 'se_SV'
 
 # Build settings
 markdown:     kramdown
 redcarpet:
   extensions: ['smart', 'tables', 'with_toc_data']
 permalink:    pretty
-paginate:     4
+paginate:     8 
 sass:
   compressed: true
 gems:
