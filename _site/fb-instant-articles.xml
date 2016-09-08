@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title></title>
+    <link>http://anttila.co/</link>
+    <description>
+      En utvecklarblogg för de som gillar estetiskt fluff
+    </description>
+    
+        
+            <item>
+                <title>Frontend Bikeshedding</title>
+                <link>http://anttila.co//bikeshed/2016/09/07/frontend-bikeshedding/</link>
+                <content:encoded>
+                    <![CDATA[
+                    <p>Utan att riktigt veta varför börjar jag knappa in lite bokstäver här i ett markdown-dokument.
+Okej, så här, jag ville formulera ett argument kring detta med teknik i presentationslagret på webben och i appar idag. Så här ligger det till, i min projektinriktade skalle (har arbetat både agilt och traditionellt i kaskad) tänker jag att tekniksnack gällande val av frameworks och mjukvara och högt flygande motiveringar till dessa kan sammanfattas som bikeshedding. Se <a href="https://sv.wiktionary.org/wiki/cykelst%C3%A4llsfr%C3%A5ga">1</a>, <a href="https://css-tricks.com/what-is-bikeshedding/">2</a>, och <a href="http://bikeshed.com/">3</a>.</p>
+
+<p>Bikeshedding är en omskrivning för Parkinsons trivialitetslag, som gör gällande att långa samtal kring helt ovidkommande saker ofta solkar ned den väsentliga diskussionen och de viktiga besluten i en organisation.</p>
+
+<p>Rent konkret tror jag att rådande standard och best practices bör efterfrågas i utveckling, idag kan dessa sammanfattas i mobile first, accesibility, graceful degradation och agile development.</p>
+
+<h2 id="allts">Alltså:</h2>
+
+<ul>
+  <li>Designa för alla typer av skärmar, utgå från den minsta och anpassa budskapet till denna och skala därefter upp både kommunikation som funktion till de sekundära enheterna.</li>
+  <li>Förutsätt inte att alla har samma förförståelse som du kring teknik eller samma läsvana, och tänk på att alla bör kunna ta del av ditt budskap eller innehåll, även de utanför din förmodade målgrupp.</li>
+  <li>Laborera kring de senaste trenderna och nyheterna, men se för fan till att det spelar på äldre plattformar och browsers med lite värdighet!</li>
+  <li>Sist men inte minst: utveckla iterativt – tänk, pröva, testa, läs av och tänk sedan om.</li>
+</ul>
+
+<h3 id="sammanfattningsvis">Sammanfattningsvis</h3>
+
+<p>Jag anser att ett framgångsrikt gränssnitt föds ur ett konceptarbete som baseras på insikter ur användartester, strategiska målsättningar och en stor dos acceptans för misslyckanden. En framgångsrik App som älskas av sina användare och träffar de strategiska (och ekonomiska) målen som satts upp har med andra ord en väldigt lite att göra med <em>SPA-Frontend-Javascript-Frameworks. </em></p>
+
+<p>Dessa tekniker och ramverk bidrar i många fall endast till att skapa visuellt kreativ höjd på produkten (drar till minnes Flash och tidigt 2000-tal) som av många, däribland användbarhetsexperten Jacob Nielsen, anses vara till användares förtret snarare än fördel.</p>
+
+<p>Nielsen nämner bl a i <a href="https://www.nngroup.com/reports/mobile-website-and-application-usability/">NNGs Rapport</a> om <a href="https://www.nngroup.com/articles/mobile-ux/">Mobil UX</a> att portabla enheter bäddar för kortare och avbrutna sessions (72s i snitt), att användare förväntar sig träffa på och hitta verklig och användbar information på en sajt eller app istället för att undersöka nya och animerade menyfunktioner som endast bidrar till en högre kognitiv belastning.</p>
+
+<h2 id="okej-hur-gr-man-en-spa">Okej hur gör man en SPA?</h2>
+
+<p>Visst, man kan inte komma så här långt och dissa JavaScript och höja Nielsen till skyarna. Har därför kollat upp den stora <a href="https://github.com/showcases/front-end-javascript-frameworks">GitHub-listan för Javascript-ramverk</a> och listar de väsentligaste här, med en personlig anmärkning.</p>
+
+<p><img src="http://anttila.co//images/github-js.png" alt="Github Javascript Frameworks" class="center-image" /></p>
+
+<p>Har tittat på listan och även projekten i sig för att förstå populariteten kring dessa. Om vi bortser från Google-drivna Angular och Facebook-drivna React verkar följande tre projekt som de mest intressanta för att ingå i ett modernt frontendprojekt (oberoende av varandra).</p>
+
+<ul>
+  <li><a href="http://emberjs.com/">Ember.js</a> – ett ramverk som “helt enkelt fungererar”, ökar produktiviteten och har ett följe av användare och utvecklare bakom sig.</li>
+  <li><a href="https://d3js.org/">D3.js</a> - Ett bibliotek som faller utanför SPA-norm, men som erbjuder underverk för gränssnittet!</li>
+  <li><a href="http://backbonejs.org/">Backbone</a> - När du vill “keep it simple, stupid” ska du hålla dig till detta MVC-ramverk.</li>
+</ul>
+
+<p>Källor till denna sammandragning <a href="https://github.com/showcases/front-end-javascript-frameworks?s=stars">Länk 0</a>, <a href="http://noeticforce.com/best-Javascript-frameworks-for-single-page-modern-web-applications">Länk 1</a>, <a href="https://www.sitepoint.com/top-javascript-frameworks-libraries-tools-use/">Länk 2</a>, <a href="https://www.lullabot.com/articles/choosing-the-right-javascript-framework-for-the-job">Länk 3</a></p>
+
+                    ]]>
+                </content:encoded>
+                <guid isPermaLink="false">/bikeshed/2016/09/07/frontend-bikeshedding/</guid>
+                <description>
+                    
+                    Summerar här några tankar om webbprojekt i agil form
+                    
+                </description>
+                <pubDate>Wed, 07 Sep 2016 13:31:19 +0200</pubDate>
+                <author>Pablo Anttila</author>
+            </item>
+        
+    
+        
+            <item>
+                <title>Att bli med jobb som frontendare</title>
+                <link>http://anttila.co//bli-med-jobb/2016/09/02/argumentation-frontend/</link>
+                <content:encoded>
+                    <![CDATA[
+                    <p>Efter en trevlig och kortfattad arbetsintervju hos Nicknamed på Linnégatan går jag nu i följande tankar.
+Först en insikt:</p>
+
+<ul>
+  <li>En trevlig intervju är det spontana, oväntade mötet mellan helt och hållet okända människor som får chansen att lära känna varandra förutsättningslöst.</li>
+  <li>En kortfattad intervju ger båda parter chansen att nå bortom de formella raderna i cv:t och fastställa de personliga egenskaperna och kompetensen hos den sökande, tillika bolagets situation och erbjudande.</li>
+</ul>
+
+<p>Som arbetssökande kan man inte sluta vara nyfiken, men de främsta frågorna gällande ett potentiellt fast heltidsjobb måste kretsa kring tilltänkt roll/position, förutsättningarna och usp:en som håller ihop företaget (kulturen), och till sist det unika erbjudandet eller de oändliga möjlighterna.</p>
+
+<p>Dessa tre saker svarar på frågan (som vi alla tänker måndag morgon på tunnelbanan) Vad fan gör jag? Varför i helvete då för? och slutligen Varför slutar jag inte göra det? <a href="https://www.youtube.com/watch?v=VrC_MSG9zSU">FOMO</a>.</p>
+
+<h3 id="sammanfattningsvis-tror-jag-att-intervjun-ledde-till-att-bda-parter-fick-lite-tankegodis-att-suga-p-och-frhoppningsvis-lite-feeling">Sammanfattningsvis tror jag att intervjun ledde till att båda parter fick lite tankegodis att suga på och förhoppningsvis lite feeling.</h3>
+
+<p>Jag gick iallafall med på att återkomma med lite funderingar kring varför javascript är så populärt i intervjusammanhang då det rekryretas frontendare, jag som är något av en designer med ändå trilskas med att kalla mig själv för utvecklare!</p>
+
+<p><img src="http://anttila.co//images/pink-elephant.jpg" alt="Pink elephnat" class="center-image" /></p>
+
+<p>Detta rosa elefant-ämne ämnar jag utveckla lite mer i ett senare sammanhang. Tack för mig!</p>
+
+                    ]]>
+                </content:encoded>
+                <guid isPermaLink="false">/bli-med-jobb/2016/09/02/argumentation-frontend/</guid>
+                <description>
+                    
+                    Vad bör egentligen en första anställningsintervju bringa till ytan?
+                    
+                </description>
+                <pubDate>Fri, 02 Sep 2016 00:00:00 +0200</pubDate>
+                <author>Pablo Anttila</author>
+            </item>
+        
+    
+  </channel>
+</rss>

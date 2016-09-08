@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Frontend Bikeshedding &#8211; Anttila.co</title>
+    <link rel="dns-prefetch" href="//maxcdn.bootstrapcdn.com">
+    <link rel="dns-prefetch" href="//cdn.mathjax.org">
+    <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Summerar här några tankar om webbprojekt i agil form">
+    <meta name="robots" content="all">
+    <meta name="author" content="Pablo Anttila">
+    
+    <meta name="keywords" content="bikeshed">
+    <link rel="canonical" href="http://anttila.co//bikeshed/2016/09/07/frontend-bikeshedding/">
+    <link rel="alternate" type="application/rss+xml" title="RSS Feed for Anttila.co" href="/feed.xml" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/pixyll.css?201609071814" type="text/css">
+
+    <!-- Fonts -->
+    
+	<link href="https://fonts.googleapis.com/css?family=Changa:300|Vesper+Libre:400,700" rel="stylesheet">
+    
+    
+
+    <!-- MathJax -->
+    
+
+    <!-- Verifications -->
+    
+    
+
+    <!-- Open Graph -->
+    <!-- From: https://github.com/mmistakes/hpstr-jekyll-theme/blob/master/_includes/head.html -->
+    <meta property="og:locale" content="se_SV">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Frontend Bikeshedding">
+    <meta property="og:description" content="En utvecklarblogg för de som gillar estetiskt fluff">
+    <meta property="og:url" content="http://anttila.co//bikeshed/2016/09/07/frontend-bikeshedding/">
+    <meta property="og:site_name" content="Anttila.co">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary" />
+    
+    <meta name="twitter:title" content="Frontend Bikeshedding" />
+    <meta name="twitter:description" content="Summerar här några tankar om webbprojekt i agil form" />
+    <meta name="twitter:url" content="http://anttila.co//bikeshed/2016/09/07/frontend-bikeshedding/" />
+
+    <!-- Icons -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/images/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="images/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="images/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="images/favicon-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="images/favicon-160x160.png" sizes="160x160">
+    <link rel="icon" type="image/png" href="images/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32">
+
+    
+    <script type="text/javascript">
+       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+       ga('create', 'UA-65686343-9', 'auto');
+       ga('send', 'pageview');
+    </script>
+    
+</head>
+
+<body class="site">
+  
+	
+
+  <div class="site-wrap">
+    <header class="site-header px2 px-responsive">
+  <div class="mt2 wrap">
+    <div class="measure">
+      <a href="http://anttila.co/" class="site-title">Anttila.co</a>
+      <nav class="site-nav">
+        
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+    
+
+    
+        <a href="/contact/">Tjaba hej!</a>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+      </nav>
+      <div class="clearfix"></div>
+      
+    </div>
+  </div>
+</header>
+
+
+    <div class="post p2 p-responsive wrap" role="main">
+      <div class="measure">
+        
+
+
+<div class="post-header mb2">
+  <h1>Frontend Bikeshedding</h1>
+  <span class="post-meta">Sep 7, 2016</span><br>
+  
+</div>
+
+<article class="post-content">
+  <p>Utan att riktigt veta varför börjar jag knappa in lite bokstäver här i ett markdown-dokument.
+Okej, så här, jag ville formulera ett argument kring detta med teknik i presentationslagret på webben och i appar idag. Så här ligger det till, i min projektinriktade skalle (har arbetat både agilt och traditionellt i kaskad) tänker jag att tekniksnack gällande val av frameworks och mjukvara och högt flygande motiveringar till dessa kan sammanfattas som bikeshedding. Se <a href="https://sv.wiktionary.org/wiki/cykelst%C3%A4llsfr%C3%A5ga">1</a>, <a href="https://css-tricks.com/what-is-bikeshedding/">2</a>, och <a href="http://bikeshed.com/">3</a>.</p>
+
+<p>Bikeshedding är en omskrivning för Parkinsons trivialitetslag, som gör gällande att långa samtal kring helt ovidkommande saker ofta solkar ned den väsentliga diskussionen och de viktiga besluten i en organisation.</p>
+
+<p>Rent konkret tror jag att rådande standard och best practices bör efterfrågas i utveckling, idag kan dessa sammanfattas i mobile first, accesibility, graceful degradation och agile development.</p>
+
+<h2 id="allts">Alltså:</h2>
+
+<ul>
+  <li>Designa för alla typer av skärmar, utgå från den minsta och anpassa budskapet till denna och skala därefter upp både kommunikation som funktion till de sekundära enheterna.</li>
+  <li>Förutsätt inte att alla har samma förförståelse som du kring teknik eller samma läsvana, och tänk på att alla bör kunna ta del av ditt budskap eller innehåll, även de utanför din förmodade målgrupp.</li>
+  <li>Laborera kring de senaste trenderna och nyheterna, men se för fan till att det spelar på äldre plattformar och browsers med lite värdighet!</li>
+  <li>Sist men inte minst: utveckla iterativt – tänk, pröva, testa, läs av och tänk sedan om.</li>
+</ul>
+
+<h3 id="sammanfattningsvis">Sammanfattningsvis</h3>
+
+<p>Jag anser att ett framgångsrikt gränssnitt föds ur ett konceptarbete som baseras på insikter ur användartester, strategiska målsättningar och en stor dos acceptans för misslyckanden. En framgångsrik App som älskas av sina användare och träffar de strategiska (och ekonomiska) målen som satts upp har med andra ord en väldigt lite att göra med <em>SPA-Frontend-Javascript-Frameworks. </em></p>
+
+<p>Dessa tekniker och ramverk bidrar i många fall endast till att skapa visuellt kreativ höjd på produkten (drar till minnes Flash och tidigt 2000-tal) som av många, däribland användbarhetsexperten Jacob Nielsen, anses vara till användares förtret snarare än fördel.</p>
+
+<p>Nielsen nämner bl a i <a href="https://www.nngroup.com/reports/mobile-website-and-application-usability/">NNGs Rapport</a> om <a href="https://www.nngroup.com/articles/mobile-ux/">Mobil UX</a> att portabla enheter bäddar för kortare och avbrutna sessions (72s i snitt), att användare förväntar sig träffa på och hitta verklig och användbar information på en sajt eller app istället för att undersöka nya och animerade menyfunktioner som endast bidrar till en högre kognitiv belastning.</p>
+
+<h2 id="okej-hur-gr-man-en-spa">Okej hur gör man en SPA?</h2>
+
+<p>Visst, man kan inte komma så här långt och dissa JavaScript och höja Nielsen till skyarna. Har därför kollat upp den stora <a href="https://github.com/showcases/front-end-javascript-frameworks">GitHub-listan för Javascript-ramverk</a> och listar de väsentligaste här, med en personlig anmärkning.</p>
+
+<p><img src="http://anttila.co//images/github-js.png" alt="Github Javascript Frameworks" class="center-image" /></p>
+
+<p>Har tittat på listan och även projekten i sig för att förstå populariteten kring dessa. Om vi bortser från Google-drivna Angular och Facebook-drivna React verkar följande tre projekt som de mest intressanta för att ingå i ett modernt frontendprojekt (oberoende av varandra).</p>
+
+<ul>
+  <li><a href="http://emberjs.com/">Ember.js</a> – ett ramverk som “helt enkelt fungererar”, ökar produktiviteten och har ett följe av användare och utvecklare bakom sig.</li>
+  <li><a href="https://d3js.org/">D3.js</a> - Ett bibliotek som faller utanför SPA-norm, men som erbjuder underverk för gränssnittet!</li>
+  <li><a href="http://backbonejs.org/">Backbone</a> - När du vill “keep it simple, stupid” ska du hålla dig till detta MVC-ramverk.</li>
+</ul>
+
+<p>Källor till denna sammandragning <a href="https://github.com/showcases/front-end-javascript-frameworks?s=stars">Länk 0</a>, <a href="http://noeticforce.com/best-Javascript-frameworks-for-single-page-modern-web-applications">Länk 1</a>, <a href="https://www.sitepoint.com/top-javascript-frameworks-libraries-tools-use/">Länk 2</a>, <a href="https://www.lullabot.com/articles/choosing-the-right-javascript-framework-for-the-job">Länk 3</a></p>
+
+</article>
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+    </div>
+  </div>
+
+  <footer class="center">
+  <div class="measure">
+    <small>
+      Denna blogg är helt färsk! Driver gör Pablo Anttila med hjälp av Jekyll, Pixyll och Github Pages<br>
+      Tillgänglig för beskådan på <a href="https://github.com/papplo/pixyll">Github</a>.
+    </small>
+  </div>
+</footer>
+
+
+</body>
+</html>
